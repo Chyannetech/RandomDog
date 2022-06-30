@@ -21,7 +21,8 @@ function App() {
       <div className="title">Random Dog Generator</div>
       <div className="subtitle">Check out these adorable doggies.</div>
       <div className="submit">
-        <input type="button" value="Get Random Dog" onClick={getDog} />
+        <input class="button"
+type="button" value="Get Random Dog" onClick={getDog} />
       </div>
       <div className="dogImg">
         <DogImage dog={dog} />

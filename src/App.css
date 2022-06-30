@@ -1,15 +1,19 @@
 body {
-  background-color: rgb(39, 76, 101);
+  background-color: rgb(78, 103, 119);
   text-align: center;
 }
 
 .title {
   color: rgba(240, 248, 255, 0.745);
-  font-size: 50px;
+  font-size: 30px;
+}
+
+.button {
+padding: 1%;
 }
 
 .subtitle {
-  color: rgb(101, 191, 146);
+  color: rgba(254, 184, 238, 0.869);
   font-weight: bold;
   padding-top: 1%;
   padding-bottom: 1.5%;
